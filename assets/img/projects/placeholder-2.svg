@@ -1,0 +1,25 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E7E3D8"/>
+      <stop offset="1" stop-color="#DAD5C6"/>
+    </linearGradient>
+    <pattern id="stripe2" width="28" height="28" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="14" height="28" fill="#F5A623"/>
+      <rect x="14" width="14" height="28" fill="#232220"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#g2)"/>
+  <rect x="0" y="0" width="800" height="10" fill="url(#stripe2)"/>
+  <rect x="0" y="590" width="800" height="10" fill="url(#stripe2)"/>
+  <g opacity="0.9">
+    <polygon points="150,430 400,220 650,430" fill="#232220"/>
+    <rect x="230" y="430" width="340" height="140" fill="#232220" opacity="0.85"/>
+    <polygon points="150,430 260,430 400,320 400,220" fill="#F5A623"/>
+    <rect x="370" y="350" width="60" height="60" fill="#E7E3D8"/>
+    <line x1="400" y1="350" x2="400" y2="410" stroke="#232220" stroke-width="4"/>
+    <line x1="370" y1="380" x2="430" y2="380" stroke="#232220" stroke-width="4"/>
+  </g>
+  <text x="400" y="530" font-family="Oswald, sans-serif" font-size="28" font-weight="600" fill="#232220" text-anchor="middle" letter-spacing="2">REKONSTRUKCE BYTU</text>
+  <text x="400" y="562" font-family="Work Sans, sans-serif" font-size="16" fill="#8B8880" text-anchor="middle" letter-spacing="1">Kompletní přestavba · Praha</text>
+</svg>
